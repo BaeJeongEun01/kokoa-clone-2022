@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>채팅 / 배정은 - Kokoa Clone</title>
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+       <div class="status-bar__column">
+        <span>네트워크</span>
+        <i class="fas fa-wifi"></i>
+    </div>
+        <div class="status-bar__column">
+        <span>18:43</span>
+    </div>
+        <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+    </div>
+</div>
+
+<header class="alt-header">
+    <div class="alt-header__column">
+        <a href="chats.html">
+        <i class="fas fa-angle-left fa-3x"></i>
+        </a>
+    </div>
+    <div class="alt-header__column">
+        <h1 class="alt-header__title">다주</h1>
+    </div>
+    <div class="alt-header__column">
+        <span><i class="fas fa-magnifying-glass fa-1g"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+    </div>
+</header>
+
+      <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            수요일 11월 17일, 2020 
+        </div>
+
+        <div class="message-row">
+            <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fcafefiles.naver.net%2FMjAxODExMDdfMjU1%2FMDAxNTQxNTczNjE1NjI0._36orvqhVgSzQDQc8JdOF5YKtfPY1pbveYK1gO7bv8kg.EfHbGuPCJtcK_oP0hEVwhxX9eW4jdZWEid8OHYxz6Usg.JPEG.dbtjf1130%2F25.jpg&type=sc960_832">
+            <div class="message-row__content">
+                <span class="message__author">다주</span>
+                <div class="message__info">
+                    <span class="message__bubble">안녕!</span>
+                    <span class="message__time">오후 21:27</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fcafefiles.naver.net%2FMjAxODExMDdfMjU1%2FMDAxNTQxNTczNjE1NjI0._36orvqhVgSzQDQc8JdOF5YKtfPY1pbveYK1gO7bv8kg.EfHbGuPCJtcK_oP0hEVwhxX9eW4jdZWEid8OHYxz6Usg.JPEG.dbtjf1130%2F25.jpg&type=sc960_832">
+            <div class="message-row__content">
+                <span class="message__author">다주</span>
+                <div class="message__info">
+                    <span class="message__bubble">뭐해?</span>
+                    <span class="message__time">오후 21:28</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">나 코딩공부 하고있어 :)</span>
+                    <span class="message__time">오후 21:29</span>
+                </div>
+            </div>
+        </div>
+      </main>
+
+      <form class="reply">
+        <div class="reply__column">
+         <i class="fa-regular fa-square-plus fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="메세지를 입력해주세요...">
+            <i class="fa-regular fa-face-smile fa-lg"></i>
+            <button>
+              <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+      </form>
+
+      <div id="no-mobile">
+        <span>화면을 줄여주세요</span>
+      </div>
+      
+      <script 
+      src="https://kit.fontawesome.com/8b4b829800.js" 
+      crossorigin="anonymous">
+      </script>
+  </body>
+</html>
